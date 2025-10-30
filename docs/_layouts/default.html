@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{ page.title | default: site.title }}</title>
+
+  <style>
+    /* copy button styles */
+    pre { position: relative; }
+    .copy-btn {
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      background: rgba(0,0,0,0.6);
+      color: #fff;
+      border: none;
+      padding: 6px 8px;
+      font-size: 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      z-index: 5;
+    }
+    .copy-btn:active { transform: translateY(1px); }
+  </style>
+</head>
+<body>
+  <!-- page content -->
+  {{ content }}
+
+  <script src="/assets/copy-code.js"></script>
+</body>
+</html>
