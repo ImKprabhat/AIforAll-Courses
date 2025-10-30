@@ -167,10 +167,8 @@ Explain this trend as if to a new intern.
 Describe this as a bar chart comparing months and sales.
 ```
 <!-- inserted image -->
-![Episode 1 image](ep1-image.jpeg){: .center }
-<!-- end inserted image -->
-
 ![Sales Chart](sales_chart.png){: .center }
+<!-- end inserted image -->
 
 ---
 
