@@ -24,6 +24,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -32,9 +34,22 @@ jobs:
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
+        id: upload
         uses: actions/upload-pages-artifact@v3
         with:
           path: './docs'
+
+      - name: Diagnostic: show run & files
+        run: |
+          echo "GITHUB_RUN_ID=${GITHUB_RUN_ID}"
+          echo "Listing docs folder contents:"
+          ls -la ./docs || true
+          echo "Listing docs/episodes contents:"
+          ls -la ./docs/episodes || true
+          echo "Querying artifacts for this run via GH API:"
+          gh api repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts --jq '.artifacts'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check Pages Status
         env:
