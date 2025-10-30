@@ -4,7 +4,7 @@ Welcome to the "ChatGPT 0 to Hero" learning series! This series is designed to g
 
 ## Available Episodes
 
-- [ChatGPT Power Moves Episode 1](ep1.md)
+- [ChatGPT Power Moves Episode 1](docs/episodes/ep1.md)
 
 Click the link above to dive into our first tutorial, "Power Moves," where you'll learn 25 practical tips to supercharge your ChatGPT skills.
 
