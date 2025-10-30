@@ -1,4 +1,3 @@
-// Adds a "Copy" button to each <pre><code> block
 (function () {
   function addButtons() {
     document.querySelectorAll('pre > code').forEach(function (code) {
@@ -46,7 +45,7 @@
     addButtons();
   }
 
-  // MutationObserver to catch dynamically injected code blocks (optional)
+  // MutationObserver to catch dynamically injected code blocks
   var obs = new MutationObserver(function () { addButtons(); });
   obs.observe(document.body, { childList: true, subtree: true });
 })();
