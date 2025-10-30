@@ -37,14 +37,17 @@ jobs:
           path: './docs'
 
       - name: Check Pages Status
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          if [ -z "$(gh api repos/${{ github.repository }}/pages --jq .html_url)" ]; then
+          if ! gh api repos/${{ github.repository }}/pages &>/dev/null; then
             echo "ERROR: GitHub Pages is not enabled!"
             echo "Please enable it at https://github.com/${{ github.repository }}/settings/pages"
             echo "Set source to 'Deploy from a branch' and branch to 'main' with '/docs' folder"
             exit 1
           else
             echo "GitHub Pages is enabled ✓"
+            echo "Site URL: $(gh api repos/${{ github.repository }}/pages --jq .html_url)"
           fi
 
       - name: Deploy to GitHub Pages
