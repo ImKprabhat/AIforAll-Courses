@@ -245,10 +245,8 @@ You now have 25 power moves to make ChatGPT work _with_ you, not just _for_ you.
 
 **Pro Tip:** Keep a running doc of your favorite prompts and tweak them for each new task. Over time, it becomes your personal AI toolkit.
 
-// ...existing code...
+
 # Episode 1 Title
 <!-- inserted image -->
-![Episode 1 image](IMG_1121.jpeg){: .center }
+![Episode 1 image](ep1-image.jpeg){: .center }
 <!-- end inserted image -->
-
-...existing code...
