@@ -1,9 +1,11 @@
-# Project Overview
+# ChatGPT Zero to Hero Series
 
-Welcome to the My GitHub Pages project! This project is designed to showcase a series of episodes, each containing unique content. Below, you will find links to the individual episodes, starting with Episode 1.
+Welcome to the "ChatGPT 0 to Hero" learning series! This series is designed to guide you from beginner to advanced mastery of ChatGPT, one step at a time.
 
-## Episodes
+## Available Episodes
 
-- [Episode 1](episodes/ep1.md)
+- [Episode 1: ChatGPT Power Moves](episodes/ep1.md)
 
-Feel free to explore the episodes and learn more about the topics covered!
+Click the link above to dive into our first tutorial, "Power Moves," where you'll learn 25 practical tips to supercharge your ChatGPT skills.
+
+Stay tuned for future episodes in the series!
