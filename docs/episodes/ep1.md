@@ -166,8 +166,11 @@ Explain this trend as if to a new intern.
 ```markdown
 Describe this as a bar chart comparing months and sales.
 ```
+<!-- inserted image -->
+![Episode 1 image](ep1-image.jpeg){: .center }
+<!-- end inserted image -->
 
-![Sales Chart](https://chatgpt.com/g/g-p-68fd2594d8c88191b51f6b4ae971aa7f-guruji/c/file-Ks173nUiQogw5vQAm6oMsD)
+![Sales Chart](sales_chart.png){: .center }
 
 ---
 
