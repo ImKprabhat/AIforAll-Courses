@@ -1,4 +1,4 @@
-ChatGPT Power Moves – Self‑paced Tutorial
+## ChatGPT Power Moves – Self‑paced Tutorial
 
 Welcome to your self‑paced guide for getting the most out of ChatGPT. This tutorial covers 25 practical tips arranged into eight themed segments. Follow along, try the prompts in the code blocks, and see how structured prompting can make your interactions with ChatGPT more powerful and enjoyable.
 
@@ -23,18 +23,18 @@ Welcome to your self‑paced guide for getting the most out of ChatGPT. This tut
 
 Reframe how you think about prompts and stop using ChatGPT like a search bar.
 
-> [!NOTE]
-> **Tip 1: Don’t start with “Write me…”**
-> 
-> ```markdown
-> Write me a blog post about visiting Paris.
-> ```
-> 
-> Instead, give context:
-> 
-> ```markdown
-> You are a travel writer. Write a blog post about three unique Paris experiences for first‑time visitors.
-> ```
+
+**Tip 1: Don’t start with “Write me…”**
+ 
+```markdown
+Write me a blog post about visiting Paris.
+```
+
+Instead, give context:
+
+```markdown
+ You are a travel writer. Write a blog post about three unique Paris experiences for first‑time visitors.
+```
 
 **Tip 2: Avoid one‑liners; build role + task + tone**
 
