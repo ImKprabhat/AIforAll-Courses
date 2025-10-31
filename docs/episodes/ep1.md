@@ -2,7 +2,6 @@
 
 ### Remember Ghajini / Memento? 
 > **Very powerful yet extremely vulnerable.**
-
 <!-- inserted image -->
 ![Episode 1 image](ep1-hook.png){: .center }
 <!-- end inserted image -->
