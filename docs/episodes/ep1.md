@@ -1,5 +1,4 @@
-
-## Ep 1 - ChatGPT Zero to Hero Series
+**Ep 1 - ChatGPT Zero to Hero Series**
 
 ### Remember Ghajini / Memento? 
 > **Very powerful yet extremely vulnerable.**
