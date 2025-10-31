@@ -271,6 +271,17 @@ Describe how a bar chart of Month vs Clients would look. Mention tallest/shortes
 
 ---
 
+### 🗺️ Tip 14 - Alternative :** Ask for chart descriptions (GPT‑4).
+
+```markdown
+Describe this as a bar chart comparing months and sales.
+```
+<!-- inserted image -->
+![Sales Chart](sales_chart.png){: .center }
+<!-- end inserted image -->
+
+---
+
 ## 🗞️ ACT 5 – Power Moves (No Browsing Assumed)
 
 > Free plans may not browse. These prompts **work even without browsing** by asking for Q&A first and allowing you to paste links if needed.
