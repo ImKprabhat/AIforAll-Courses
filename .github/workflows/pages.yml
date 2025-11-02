@@ -56,7 +56,7 @@ jobs:
             echo "Set source to 'Deploy from a branch' and branch to 'main' with '/docs' folder"
             exit 1
           else
-            echo "GitHub Pages is enabled ✓"
+            echo "GitHub Pages is enabled"
             echo "Site URL: $(gh api repos/${{ github.repository }}/pages --jq .html_url)"
           fi
 
