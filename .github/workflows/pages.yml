@@ -40,6 +40,8 @@ jobs:
           path: './docs'
 
       - name: Diagnostic: show run & files
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           echo "GITHUB_RUN_ID=${GITHUB_RUN_ID}"
           echo "Listing docs folder contents:"
@@ -48,11 +50,6 @@ jobs:
           ls -la ./docs/episodes || true
           echo "Querying artifacts for this run via GH API:"
           gh api repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts --jq '.artifacts'
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
           if ! gh api repos/${{ github.repository }}/pages &>/dev/null; then
             echo "ERROR: GitHub Pages is not enabled!"
             echo "Please enable it at https://github.com/${{ github.repository }}/settings/pages"
