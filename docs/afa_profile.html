@@ -63,6 +63,30 @@
       }
     }
 
+    /* Manual override (data-theme) — wins over prefers-color-scheme when set */
+    html[data-theme="light"]{
+      --bg: #F7F7F8;
+      --ink: #0B1220;
+      --muted: #5B6473;
+      --panel: #FFFFFF;
+      --border: #E6E8EE;
+      --primary: #174B7A;
+      --primary-ink: #FFFFFF;
+      --secondary: #0EA5A0;
+      --shadow: 0 10px 30px rgba(18, 26, 43, .08), 0 4px 12px rgba(18, 26, 43, .06);
+    }
+    html[data-theme="dark"]{
+      --bg: #0B1220;
+      --ink: #F1F5F9;
+      --muted: #98A2B3;
+      --panel: #0F172A;
+      --border: #1E2A44;
+      --primary: #3BA7EA;
+      --primary-ink: #061018;
+      --secondary: #22D3C5;
+      --shadow: 0 12px 34px rgba(0,0,0,.35), 0 4px 14px rgba(0,0,0,.26);
+    }
+
     *{box-sizing:border-box}
     html,body{height:100%}
     body{
@@ -144,6 +168,7 @@
       <nav class="cta-top" aria-label="Quick actions">
         <a class="btn" href="https://linktr.ee/aiforallglobal" target="_blank" rel="noopener">Connect with us</a>
         <a class="btn secondary" href="https://www.linkedin.com/company/ai-for-all-global/" target="_blank" rel="noopener">LinkedIn</a>
+        <button id="theme-toggle" class="btn secondary" aria-label="Toggle theme">🌓</button>
       </nav>
     </header>
 
@@ -204,6 +229,43 @@
 
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle logic (persisted preference)
+    (function(){
+      const KEY = 'site-theme';
+      const btn = document.getElementById('theme-toggle');
+      if(!btn) return;
+
+      function apply(theme){
+        if(theme === 'light' || theme === 'dark'){
+          document.documentElement.setAttribute('data-theme', theme);
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+        reflect();
+      }
+
+      function reflect(){
+        const cur = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        btn.textContent = cur === 'dark' ? '🌙' : '☀️';
+        btn.title = `Switch to ${cur === 'dark' ? 'light' : 'dark'} mode`;
+      }
+
+      const stored = localStorage.getItem(KEY);
+      if(stored === 'light' || stored === 'dark') apply(stored);
+      else apply();
+
+      btn.addEventListener('click', ()=>{
+        const cur = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        const next = cur === 'dark' ? 'light' : 'dark';
+        localStorage.setItem(KEY, next);
+        apply(next);
+      });
+
+      window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ()=>{
+        if(!localStorage.getItem(KEY)) reflect();
+      });
+    })();
   </script>
 </body>
 </html>

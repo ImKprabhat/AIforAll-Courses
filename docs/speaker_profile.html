@@ -59,6 +59,30 @@
         --radius: 16px;
       }
     }
+
+    /* Manual overrides (data-theme) — when set, these win over prefers-color-scheme */
+    html[data-theme="light"]{
+      --bg: #F7F7F8;
+      --panel: #FFFFFF;
+      --text: #0B1220;
+      --muted: #5B6473;
+      --accent: #174B7A;
+      --accent-2: #0EA5A0;
+      --ring: rgba(14,165,160,.12);
+      --code: #F3F5F7;
+      --shadow: 0 10px 30px rgba(18,26,43,.04);
+    }
+    html[data-theme="dark"]{
+      --bg: #0b0c10;
+      --panel: #12141a;
+      --text: #e6edf3;
+      --muted: #9aa4b2;
+      --accent: #7c91ff;
+      --accent-2: #33d1a0;
+      --ring: rgba(124,145,255,.35);
+      --code: #0f172a;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
     *{ box-sizing: border-box }
     html,body{ height:100% }
     body{
@@ -83,9 +107,9 @@
     .brand{ display:flex; align-items:center; gap:12px; padding:12px 0 }
     .avatar{
       width:42px; height:42px; border-radius:50%;
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      display:grid; place-items:center; color:white; font-weight:700; box-shadow: var(--shadow);
+      display:inline-block; overflow:hidden; box-shadow: var(--shadow); background: linear-gradient(135deg, var(--accent), var(--accent-2));
     }
+    .avatar img{ width:42px; height:42px; display:block; object-fit:cover; border-radius:50%; }
     nav a{ margin-left:16px; padding:8px 12px; border-radius:10px }
     nav a.cta{
       background: linear-gradient(135deg, var(--accent), var(--accent-2));
@@ -101,7 +125,7 @@
     }
     .tag{ color: var(--muted); font-weight:600; letter-spacing:.1em; text-transform:uppercase; font-size:12px }
     h1{ margin: 6px 0 12px; font-size: clamp(28px, 5vw, 44px); line-height:1.15 }
-    .lead{ color: #c6d1db; font-size: clamp(16px, 2.2vw, 18px) }
+  .lead{ color: var(--text); font-size: clamp(16px, 2.2vw, 18px) }
 
     /* Cards grid */
     .grid{ display:grid; gap:16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); margin-top: 22px }
@@ -133,7 +157,9 @@
 <body>
   <header class="wrap">
     <div class="brand">
-      <div class="avatar" aria-hidden="true">P</div>
+      <div class="avatar">
+        <img src="assets/pk.jpeg" alt="Prabhat" />
+      </div>
       <div>
         <div style="font-weight:700">Prabhat</div>
         <div class="muted" style="font-size:13px">Executive · AI Strategy & Data</div>
@@ -143,6 +169,7 @@
       <!-- Thought Leadership & Projects links removed -->
       <a href="https://www.linkedin.com/in/prabhatkumar-nl/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:contact@aiforallglobal.com" class="cta">Contact</a>
+      <button id="theme-toggle" aria-label="Toggle theme" class="pill" style="margin-left:12px">🌓</button>
     </nav>
   </header>
 
@@ -203,6 +230,45 @@
   <script>
     // Year
     document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Theme toggle logic (persists preference in localStorage)
+    (function(){
+      const KEY = 'site-theme';
+      const btn = document.getElementById('theme-toggle');
+      if(!btn) return;
+
+      function apply(theme){
+        if(theme === 'light' || theme === 'dark'){
+          document.documentElement.setAttribute('data-theme', theme);
+        } else {
+          document.documentElement.removeAttribute('data-theme');
+        }
+        reflect();
+      }
+
+      function reflect(){
+        const cur = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        btn.textContent = cur === 'dark' ? '🌙' : '☀️';
+        btn.title = `Switch to ${cur === 'dark' ? 'light' : 'dark'} mode`;
+      }
+
+      // initialize from storage
+      const stored = localStorage.getItem(KEY);
+      if(stored === 'light' || stored === 'dark') apply(stored);
+      else apply(); // follow system
+
+      btn.addEventListener('click', ()=>{
+        const cur = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        const next = cur === 'dark' ? 'light' : 'dark';
+        localStorage.setItem(KEY, next);
+        apply(next);
+      });
+
+      // if user hasn't chosen a preference, reflect system changes
+      window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)=>{
+        if(!localStorage.getItem(KEY)) reflect();
+      });
+    })();
 
     // Simple cache (sessionStorage) to avoid rate limits
     const ghUser = 'ImKprabhat'; // change if needed

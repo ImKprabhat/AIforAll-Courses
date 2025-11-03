@@ -3,6 +3,45 @@
 Welcome to **ChatGPT Zero to Hero** — a complete learning journey designed to take you from your first prompt to advanced AI mastery.  
 Whether you're a curious beginner or an experienced user, this series will help you unlock ChatGPT’s full potential — with real examples, exercises, and pro tips.
 
+<div style="display:flex; justify-content:flex-end; gap:8px; margin-top:8px;">
+	<button id="theme-toggle" aria-label="Toggle theme" style="padding:6px 10px; border-radius:8px; border:1px solid rgba(0,0,0,.08); background:transparent; cursor:pointer;">🌓</button>
+</div>
+
+<script>
+	(function(){
+		const KEY = 'site-theme';
+		const btn = document.getElementById('theme-toggle');
+		if(!btn) return;
+
+		function apply(theme){
+			if(theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
+			else document.documentElement.removeAttribute('data-theme');
+			reflect();
+		}
+
+		function reflect(){
+			const cur = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+			btn.textContent = cur === 'dark' ? '🌙' : '☀️';
+			btn.title = `Switch to ${cur === 'dark' ? 'light' : 'dark'} mode`;
+		}
+
+		const stored = localStorage.getItem(KEY);
+		if(stored === 'light' || stored === 'dark') apply(stored);
+		else apply();
+
+		btn.addEventListener('click', ()=>{
+			const cur = document.documentElement.getAttribute('data-theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+			const next = cur === 'dark' ? 'light' : 'dark';
+			localStorage.setItem(KEY, next);
+			apply(next);
+		});
+
+		window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', ()=>{
+			if(!localStorage.getItem(KEY)) reflect();
+		});
+	})();
+</script>
+
 ---
 
 ## 🎓 What You'll Learn
