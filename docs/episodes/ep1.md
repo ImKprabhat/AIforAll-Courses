@@ -25,6 +25,9 @@ For every you’ll get:
 ## 🎬 ACT 1 – Forgetfulness to Focus
 
 Watch: [Watch the episode on YouTube](https://youtu.be/cOhGaMrw7Vc?si=IuyM0cyMyzITZayZyt=210)
+<a href="https://youtu.be/cOhGaMrw7Vc?si=GoUwvpymx2R4HEWC&t=1176" target="_blank" rel="noopener noreferrer">
+  Watch the episode on YouTube
+</a>
 
 ### 🧠 Tip 1 — Start with Context (The Ghajini Rule)
 
