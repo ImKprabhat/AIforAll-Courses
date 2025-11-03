@@ -123,6 +123,8 @@ Ask 2 questions first; release final options after I say GO.
 
 ## 🧠 ACT 2 – Remembering the Mission
 
+Watch: [Watch the episode on YouTube](https://youtu.be/cOhGaMrw7Vc?si=GoUwvpymx2R4HEWC&t=1176)
+
 ### 🔁 Tip 6 — Summarize for Reuse (Carry Memory Forward)
 
 **Concept:** Create your own memory.
@@ -155,6 +157,8 @@ Ask me 3 questions to finalize; release the header on GO.
 ---
 
 ## 🎨 ACT 3 – Finding Joe’s Voice
+
+Watch: [Watch the episode on YouTube](https://youtu.be/cOhGaMrw7Vc?si=z5-Yhm2quGTqN-q3&t=1506)
 
 ### 🪄 Tip 8 — Editing in My Voice (Don’t Over‑polish)
 
@@ -216,6 +220,8 @@ Continue with 3 similar lines. Ask 1 question; release on GO.
 ---
 
 ## 📊 ACT 4 – Insights Without Plug‑ins
+
+Watch: [Watch the episode on YouTube](https://youtu.be/cOhGaMrw7Vc?si=P69P8brtDzHvGaoO&t=2000)
 
 > Each “data” tip includes a **self‑contained asset** (table) you can paste directly.
 
@@ -280,6 +286,8 @@ Describe this as a bar chart comparing months and sales.
 
 ## 🗞️ ACT 5 – Power Moves (No Browsing Assumed)
 
+Watch: [Watch the episode on YouTube](https://youtu.be/cOhGaMrw7Vc?si=o0pKDKV12_bRgQwW&t=2252)
+
 > Free plans may not browse. These prompts **work even without browsing** by asking for Q&A first and allowing you to paste links if needed.
 
 ### 📰 Tip 16 — Latest‑7 day News Miner 
@@ -338,6 +346,8 @@ Turn my last 5 successful prompts into reusable templates with placeholders like
 
 ### 🧾 Tip 19 — Meeting‑to‑Actions Converter
 
+Watch: [Watch the episode on YouTube](https://youtu.be/cOhGaMrw7Vc?si=IMx0hQfnY_NTy5b0&t=2791)
+
 **Try This:**
 
 ```
@@ -385,6 +395,8 @@ Give 5 caption options for International Yoga Day. Rank by clarity. Add 1 hashta
 ---
 
 ### ⚡ Tip 22 — Global Shortcut Commands (Fast Modes)
+
+Watch: [Watch the episode on YouTube](https://youtu.be/cOhGaMrw7Vc?si=GC_dTXSavksoeDeu&t=3050)
 
 **Concept:** Quick intents with slash‑style cues.
 
