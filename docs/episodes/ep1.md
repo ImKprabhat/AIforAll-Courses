@@ -24,6 +24,8 @@ For every you’ll get:
 
 ## 🎬 ACT 1 – Forgetfulness to Focus
 
+Watch: https://youtu.be/cOhGaMrw7Vc?si=IuyM0cyMyzITZayZyt=210
+
 ### 🧠 Tip 1 — Start with Context (The Ghajini Rule)
 
 **Concept:** Every chat is a blank slate; add scene‑setting.
