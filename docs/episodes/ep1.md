@@ -413,18 +413,6 @@ Give 5 caption options for International Yoga Day. Rank by clarity. Add 1 hashta
   Watch the this part on YouTube
 </a>
 
-### Watch the Episode
-
-<iframe 
-  width="560" 
-  height="315" 
-  src="https://youtu.be/cOhGaMrw7Vc?si=GC_dTXSavksoeDeu&t=3050" 
-  title="YouTube video player" 
-  frameborder="0" 
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  allowfullscreen>
-</iframe>
-
 [![Watch on YouTube](https://img.youtube.com/vi/cOhGaMrw7Vc/hqdefault.jpg)](https://youtu.be/cOhGaMrw7Vc?si=GC_dTXSavksoeDeu&t=3050)
 
 
