@@ -30,17 +30,34 @@
   </script>
 
   <style>
+    /* Default: light theme (follows system light mode) */
     :root{
-      --bg: #0b0c10;
-      --panel: #12141a;
-      --text: #e6edf3;
-      --muted: #9aa4b2;
-      --accent: #7c91ff; /* soft indigo */
-      --accent-2: #33d1a0; /* teal */
-      --ring: rgba(124,145,255,.35);
-      --code: #0f172a;
-      --shadow: 0 10px 30px rgba(0,0,0,.35);
+      --bg: #F7F7F8;
+      --panel: #FFFFFF;
+      --text: #0B1220;
+      --muted: #5B6473;
+      --accent: #174B7A; /* deep blue */
+      --accent-2: #0EA5A0; /* teal */
+      --ring: rgba(14,165,160,.12);
+      --code: #F3F5F7;
+      --shadow: 0 10px 30px rgba(18,26,43,.04);
       --radius: 16px;
+    }
+
+    /* Dark theme overrides when user's system is in dark mode */
+    @media (prefers-color-scheme: dark){
+      :root{
+        --bg: #0b0c10;
+        --panel: #12141a;
+        --text: #e6edf3;
+        --muted: #9aa4b2;
+        --accent: #7c91ff; /* soft indigo */
+        --accent-2: #33d1a0; /* teal */
+        --ring: rgba(124,145,255,.35);
+        --code: #0f172a;
+        --shadow: 0 10px 30px rgba(0,0,0,.35);
+        --radius: 16px;
+      }
     }
     *{ box-sizing: border-box }
     html,body{ height:100% }
@@ -58,8 +75,9 @@
     header{
       display:grid; grid-template-columns: 1fr auto; align-items:center; gap:16px;
       position: sticky; top:0; backdrop-filter: blur(8px);
-      background: linear-gradient(180deg, rgba(11,12,16,.85), rgba(11,12,16,.65));
-      border-bottom: 1px solid rgba(255,255,255,.06);
+      /* use panel variable so header follows theme */
+      background: linear-gradient(180deg, color-mix(in oklab, var(--panel) 92%, transparent), var(--panel));
+      border-bottom: 1px solid color-mix(in oklab, var(--panel) 80%, var(--bg));
       z-index: 10;
     }
     .brand{ display:flex; align-items:center; gap:12px; padding:12px 0 }
@@ -77,8 +95,8 @@
     /* Hero */
     .hero{
       margin: 32px 0 8px; padding: 28px; border-radius: var(--radius);
-      background: linear-gradient(180deg, rgba(18,20,26,.8), rgba(18,20,26,.6));
-      border: 1px solid rgba(255,255,255,.06);
+      background: linear-gradient(180deg, color-mix(in oklab, var(--panel) 92%, transparent), var(--panel));
+      border: 1px solid color-mix(in oklab, var(--panel) 80%, var(--bg));
       box-shadow: var(--shadow);
     }
     .tag{ color: var(--muted); font-weight:600; letter-spacing:.1em; text-transform:uppercase; font-size:12px }
@@ -122,8 +140,7 @@
       </div>
     </div>
     <nav aria-label="Primary">
-      <a href="#thought">Thought Leadership</a>
-      <a href="#repos">Projects</a>
+      <!-- Thought Leadership & Projects links removed -->
       <a href="https://www.linkedin.com/in/prabhatkumar-nl/" target="_blank" rel="noopener">LinkedIn</a>
       <a href="mailto:contact@aiforallglobal.com" class="cta">Contact</a>
     </nav>
@@ -165,25 +182,7 @@
       </article>
     </section>
 
-    <section id="thought" style="margin-top:24px" aria-labelledby="thought-title">
-      <div style="display:flex; align-items:end; justify-content:space-between; gap:12px; flex-wrap:wrap">
-        <h2 id="thought-title" style="margin:0">Thought Leadership</h2>
-        <a class="pill" href="https://www.linkedin.com/in/prabhatkumar-nl/recent-activity/all/" target="_blank" rel="noopener">View on LinkedIn</a>
-      </div>
-      <div class="grid" style="margin-top:12px">
-        <article class="card">
-          <h3>LinkedIn Highlights</h3>
-          <p class="muted">Visit recent activity and articles on LinkedIn for verified posts, talks, and updates.</p>
-          <p><a href="https://www.linkedin.com/in/prabhatkumar-nl/recent-activity/all/" target="_blank" rel="noopener">Open activity ↗</a></p>
-        </article>
-      </div>
-    </section>
-
-    <section id="repos" style="margin-top:24px" aria-labelledby="repos-title">
-      <h2 id="repos-title" style="margin:0">Selected Projects</h2>
-      <div id="repo-grid" class="grid" style="margin-top:12px"></div>
-      <p class="muted" style="margin-top:8px">Auto‑curated from GitHub (<code>ImKprabhat</code>). Customize by pinning in <code>render()</code>.</p>
-    </section>
+    <!-- Thought Leadership and Selected Projects sections removed -->
 
     <section class="grid" style="margin-top:24px" aria-labelledby="profile-title">
       <article class="card">
