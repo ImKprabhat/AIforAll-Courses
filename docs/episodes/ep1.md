@@ -425,6 +425,8 @@ Give 5 caption options for International Yoga Day. Rank by clarity. Add 1 hashta
   allowfullscreen>
 </iframe>
 
+[![Watch on YouTube](https://img.youtube.com/vi/cOhGaMrw7Vc/hqdefault.jpg)](https://youtu.be/cOhGaMrw7Vc?si=GC_dTXSavksoeDeu&t=3050)
+
 
 **Concept:** Quick intents with slash‑style cues.
 
