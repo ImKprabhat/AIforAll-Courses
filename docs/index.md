@@ -60,8 +60,8 @@ Discover **25 powerful techniques** to get the most out of ChatGPT — from craf
 
 ---
 
-### Episode 2 — Applied Advanced Prompting: Customer Service (Finance/BPO)
-Scripts, escalation flows, and QA scorecards to lift CX fast.  
+### Episode 2 — Applied Advanced Prompting: Administrative Services Managers
+Policies, facilities ops, and scheduling checklists that keep offices running smoothly.  
 > 🔗 *Link will be uploaded soon.*
 
 ---
