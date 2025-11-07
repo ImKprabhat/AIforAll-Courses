@@ -60,25 +60,49 @@ Discover **25 powerful techniques** to get the most out of ChatGPT — from craf
 
 ---
 
-### ⚡ Episode 2: Advanced Prompt Engineering  
-Learn how to design multi-layered prompts, use context effectively, and chain reasoning steps for complex tasks.  
+### Episode 2 — Applied Advanced Prompting: Customer Service (Finance/BPO)
+Scripts, escalation flows, and QA scorecards to lift CX fast.  
 > 🔗 *Link will be uploaded soon.*
 
 ---
 
-### 🧰 Episode 3: Building Custom GPTs  
+### Episode 3 — Applied Advanced Prompting: Accountants & Auditors
+Month-end packs, risk-based sampling, and variance narratives.  
+> 🔗 *Link will be uploaded soon.*
+
+---
+
+### Episode 4 — Applied Advanced Prompting: Retail Supervisors
+Daily sales briefs, weekend promo plans, and micro-SOPs.  
+> 🔗 *Link will be uploaded soon.*
+
+---
+
+### Episode 5 — Applied Advanced Prompting: Real Estate Sales Agents
+Lead scoring, neighborhood briefs, and optimized tour plans.  
+> 🔗 *Link will be uploaded soon.*
+
+---
+
+### Episode 6 — Applied Advanced Prompting: Financial Managers
+Compact reporting packs, what-if scenarios, and payroll checks.  
+> 🔗 *Link will be uploaded soon.*
+
+---
+
+### 🧰 Episode 7: Building Custom GPTs  
 A hands-on walkthrough on creating, customizing, and deploying your own GPTs for personal and professional use.  
 > 🔗 *Link will be uploaded soon.*
 
 ---
 
-### 🤖 Episode 4: ChatGPT for Automation  
+### 🤖 Episode 8: ChatGPT for Automation  
 Connect ChatGPT with external tools like Make, Zapier, or Google Sheets to automate everyday workflows.  
 > 🔗 *Link will be uploaded soon.*
 
 ---
 
-### 🧬 Episode 5: Beyond Chat — Multi-Modal Mastery  
+### 🧬 Episode 9: Beyond Chat — Multi-Modal Mastery  
 Explore how to integrate ChatGPT with vision, voice, and other AI models to create next-generation experiences.  
 > 🔗 *Link will be uploaded soon.*
 
