@@ -79,7 +79,7 @@ Relevant information to inform the reductions are:
 **Reference Materials**
 
 - [FulltimeEquivalentReport-AdministrativeSupportServices.xlsx](data/FulltimeEquivalentReport-AdministrativeSupportServices.xlsx)
-- [Organizational Chart - Administrative Support Services Branch.pdf](data/Organizational Chart - Administrative Support Services Branch.pdf)
-- [Budget Planning Principles.pdf](data/Budget Planning Principles.pdf)
+- [Organizational Chart - Administrative Support Services Branch.pdf](data/OrganizationalChart-AdministrativeSupportServicesBranch.pdf)
+- [Budget Planning Principles.pdf](data/BudgetPlanningPrinciples.pdf)
 
 
