@@ -57,6 +57,9 @@ Whether you're a curious beginner or an experienced user, this series will help 
 ### 🧩 Episode 1: [ChatGPT Power Moves](episodes/ep1.md)
 Discover **25 powerful techniques** to get the most out of ChatGPT — from crafting better prompts to mastering system instructions.  
 > 🗓️ *Available Now*
+> <a href="https://youtu.be/cOhGaMrw7Vc?si=TY6eW1SzgYSKY9Sm" target="_blank" rel="noopener noreferrer">
+  Watch it on YouTube
+</a>
 
 ---
 
