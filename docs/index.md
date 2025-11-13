@@ -63,9 +63,12 @@ Discover **25 powerful techniques** to get the most out of ChatGPT — from craf
 
 ---
 
-### Episode 2 — Applied Advanced Prompting: Administrative Services Managers
+### Episode 2 — [Applied Advanced Prompting: Administrative Services Managers](episodes/ep2/ep2.md)
 Policies, facilities ops, and scheduling checklists that keep offices running smoothly.  
-> 🔗 *Link will be uploaded soon.*
+> 🗓️ *Available Now*
+> <a href="https://youtu.be/ZJ4p1cR7ORE?si=7XKFDYU5QFYOe2eX" target="_blank" rel="noopener noreferrer">
+  Watch it on YouTube
+</a>
 
 ---
 
