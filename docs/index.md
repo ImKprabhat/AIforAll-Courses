@@ -72,8 +72,8 @@ Policies, facilities ops, and scheduling checklists that keep offices running sm
 
 ---
 
-### Episode 3 — Applied Advanced Prompting: Accountants & Auditors
-Month-end packs, risk-based sampling, and variance narratives.  
+### Episode 3 — Applied Advanced Prompting: Real Estate Sales Agents
+Lead scoring, neighborhood briefs, and optimized tour plans.  
 > 🔗 *Link will be uploaded soon.*
 
 ---
@@ -84,13 +84,19 @@ Daily sales briefs, weekend promo plans, and micro-SOPs.
 
 ---
 
-### Episode 5 — Applied Advanced Prompting: Real Estate Sales Agents
-Lead scoring, neighborhood briefs, and optimized tour plans.  
+### Episode 5 — Applied Advanced Prompting: IT Managers & Leaders
+Product Strategy, UAT plan, and Operational Excellence.  
 > 🔗 *Link will be uploaded soon.*
 
 ---
 
-### Episode 6 — Applied Advanced Prompting: Financial Managers
+### Episode 6 — Applied Advanced Prompting: Accountants & Auditors
+Month-end packs, risk-based sampling, and variance narratives.  
+> 🔗 *Link will be uploaded soon.*
+
+---
+
+### Episode 7 — Applied Advanced Prompting: Financial Managers
 Compact reporting packs, what-if scenarios, and payroll checks.  
 > 🔗 *Link will be uploaded soon.*
 
