@@ -58,6 +58,6 @@ This event is critical to the performance of your team, your store, and the over
 
 **Reference Materials**
 
-- [Diwali 2024 vs 2025 Targets.pdf](data/Diwali 2024 vs 2025 Targets.pdf)
-- [Diwali Marketing Email.pdf](data/Diwali Marketing Email.pdf)
+- [Diwali 2024 vs 2025 Targets.pdf](data/Diwali_2024_vs_2025_Targets.pdf)
+- [Diwali Marketing Email.pdf](data/Diwali_Marketing_Email.pdf)
 
