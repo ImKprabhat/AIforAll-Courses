@@ -72,17 +72,21 @@ Policies, facilities ops, and scheduling checklists that keep offices running sm
 
 ---
 
-### Episode 3 — Applied Advanced Prompting: Real Estate Sales Agents
+### Episode 3 — [Applied Advanced Prompting: Retail Supervisors](episodes/ep3/ep3.md)
+Daily sales briefs, weekend promo plans, and micro-SOPs.  
+> 🗓️ *Available Now*
+> <a href="https://www.youtube.com/watch?v=oa5V5lEP6Rw" target="_blank" rel="noopener noreferrer">
+  Watch it on YouTube
+</a>
+
+---
+
+### Episode 4 — Applied Advanced Prompting: Real Estate Sales Agents
 Lead scoring, neighborhood briefs, and optimized tour plans.  
 > 🔗 *Link will be uploaded soon.*
 
 ---
 
-### Episode 4 — Applied Advanced Prompting: Retail Supervisors
-Daily sales briefs, weekend promo plans, and micro-SOPs.  
-> 🔗 *Link will be uploaded soon.*
-
----
 
 ### Episode 5 — Applied Advanced Prompting: IT Managers & Leaders
 Product Strategy, UAT plan, and Operational Excellence.  
