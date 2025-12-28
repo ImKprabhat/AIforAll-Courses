@@ -81,10 +81,12 @@ Daily sales briefs, weekend promo plans, and micro-SOPs.
 
 ---
 
-### Episode 4 — Applied Advanced Prompting: Real Estate Sales Agents
+### Episode 4 — [Applied Advanced Prompting: Real Estate Sales Agents](episodes/ep4/ep4.md)
 Lead scoring, neighborhood briefs, and optimized tour plans.  
-> 🔗 *Link will be uploaded soon.*
-
+> 🗓️ *Available Now*
+> <a href="https://www.youtube.com/watch?v=9HsrCA-ctP8" target="_blank" rel="noopener noreferrer">
+  Watch it on YouTube
+</a>
 ---
 
 
