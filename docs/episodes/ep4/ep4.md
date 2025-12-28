@@ -88,9 +88,9 @@ In addition to reference files attached, you have access to recent leasing data 
 
 **Reference Materials**
 
-- [Lease Comps.pdf](rwai_data/Lease Comps.pdf)
-- [Lease_Rate_Analysis_Template.docx](rwai_data/Lease_Rate_Analysis_Template.docx)
-- [Subject Property Info - Lease.pdf](rwai_data/Subject Property Info - Lease.pdf)
+- [Lease Comps.pdf](data/Lease_Comps.pdf)
+- [Lease_Rate_Analysis_Template.docx](data/Lease_Rate_Analysis_Template.docx)
+- [Subject Property Info - Lease.pdf](data/Subject_Property_Info-Lease.pdf)
 
 ---
 ---
